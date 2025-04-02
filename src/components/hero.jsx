@@ -20,6 +20,8 @@ function hero() {
             <img src={Logo}
             alt="logo"
             style={{height: '16em'}}/>
+            
+            <button href="quotePage">Request a Quote</button>
         </div>
     </section>
   )
