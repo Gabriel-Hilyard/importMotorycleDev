@@ -32,7 +32,15 @@ function footer() {
 
       <div className="googleMapPreview">
         <div className='preview'>
-
+        <iframe
+         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6581.396172488091!2d-118.58254542276845!3d34.43442327301536!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c27e0074f14553%3A0xf95fb8a7d3962135!2sMotorcycle%20Specialist!5e0!3m2!1sen!2sus!4v1743639215270!5m2!1sen!2sus"
+         width="600"
+         height="450"
+         style={{ border: 0 }}
+         allowFullScreen
+         loading="lazy"
+         referrerPolicy="no-referrer-when-downgrade"
+        />
         </div>
 
         <h2>25345 Avenue Stanford #206, Santa Clarita, CA 91355</h2>

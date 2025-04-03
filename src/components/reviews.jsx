@@ -7,7 +7,9 @@ function reviews() {
     <div className='reviewSection'>
       <h1>Reviews</h1>
       
-      <div className='reviewCard'></div>
+      <div className='reviewCard'>
+        
+      </div>
       </div>
   )
 }
