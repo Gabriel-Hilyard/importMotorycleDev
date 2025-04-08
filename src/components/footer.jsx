@@ -1,7 +1,7 @@
 import React from 'react';
 import Logo from '/IMS_Logo.png'
 
-function footer() {
+function Footer() {
   console.log("Hello, footer is working!")
   return (
     <footer>
@@ -53,4 +53,4 @@ function footer() {
   )
 }
 
-export default footer;
+export default Footer;

@@ -1,11 +1,11 @@
 import React from 'react';
 
 
-function about() {
+function About() {
   console.log("Hello, About is working!")
   return (
     <></>
   )
 }
 
-export default about;
+export default About;

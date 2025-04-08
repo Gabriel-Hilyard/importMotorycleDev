@@ -1,7 +1,7 @@
 import React from 'react';
 import placeHolder from '/placeHolder.png'
 
-function specialties() {
+function Specialties() {
   console.log("Hello, Specialties is working!")
   return (
     <div className='specialtyComponent'>
@@ -56,4 +56,4 @@ function specialties() {
   )
 }
 
-export default specialties;
+export default Specialties;

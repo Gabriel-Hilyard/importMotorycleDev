@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-function nav() {
+function Nav() {
   console.log("Hello, Nav is working!")
   return (
     <nav>
@@ -15,4 +15,4 @@ function nav() {
   )
 }
 
-export default nav;
+export default Nav;

@@ -2,7 +2,7 @@ import React from 'react';
 import Logo from '/IMS_Logo.png'
 
 
-function hero() {
+function Hero() {
   console.log("Hello, Hero is working!")
   return (
     <section>
@@ -27,4 +27,4 @@ function hero() {
   )
 }
 
-export default hero;
+export default Hero;
