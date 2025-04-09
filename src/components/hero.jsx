@@ -1,5 +1,6 @@
 import React from 'react';
 import Logo from '/IMS_Logo.png'
+import { Link } from 'react-router-dom';
 
 
 function Hero() {
@@ -20,8 +21,12 @@ function Hero() {
             <img src={Logo}
             alt="logo"
             style={{height: '16em'}}/>
-            
-            <button href="quotePage">Request a Quote</button>
+            <Link to='/QuoteRequest'>
+            <button className='quoteRequestBtn'>
+            Reserve a Quote
+            </button>
+            </Link>
+
         </div>
     </section>
   )
