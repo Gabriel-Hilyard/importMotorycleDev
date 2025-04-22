@@ -1,0 +1,37 @@
+a {
+    text-decoration: none;
+    color: #F4CC21;
+}
+
+
+li {
+    display: inline;
+    list-style: none;
+    font-size: 1.50em;
+}
+
+
+.pageTitle {
+    justify-content: center;
+}
+
+.navLinks {
+    display: flex;
+    gap: 3rem;
+    list-style: none;
+  }
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background-color: #9A0000;
+}
+
+
+@media (max-width: 768px) {
+  .navLinks {
+    display: none;
+  }
+}
