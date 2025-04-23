@@ -1,12 +1,15 @@
 import React from 'react';
+import './specialties.css';
 import placeHolder from '/placeHolder.png'
+import garyPortrait from '/GaryPortrait.png'
+import counterHelmet from '/Helmet.png'
 
 function Specialties() {
   console.log("Hello, Specialties is working!")
   return (
     <div className='specialtyComponent'>
       <div className='specialtyCards'>
-        <img src={placeHolder}
+        <img src={garyPortrait}
          alt="logo"
          style={{height: '16em'}}/>
 
@@ -14,7 +17,7 @@ function Specialties() {
       </div>
      
      <div className='specialtyCards'>
-      <img src={placeHolder}
+      <img src={counterHelmet}
          alt="logo"
          style={{height: '16em'}}/>
 

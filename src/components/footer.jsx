@@ -47,6 +47,7 @@ function Footer() {
       </div>
 
       <div className='copyRightNotice'>
+        <a href='www.linkedin.com/in/gabriel-hilyard-87a583173'>Created by Gabriel Hilyard</a>
       &copy; {new Date().getFullYear()} Import Motorcycle Specialist all rights reserved.
       </div>
     </footer>

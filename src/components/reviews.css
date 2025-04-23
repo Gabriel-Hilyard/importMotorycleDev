@@ -1,0 +1,24 @@
+.reviewSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+    color: #F4CC21;
+  }
+  
+  .reviewSection h1 {
+    margin-bottom: 1.5em;
+  }
+  
+  .reviewComponent {
+    display: flex;
+    gap: 3rem;
+  }
+  .reviewCard {
+    
+    background-color: #9A0000;
+    padding: 2em 1em 2em 1em;
+    border-radius: 10px;
+    min-width: 400px;
+    
+  }
