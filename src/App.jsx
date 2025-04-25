@@ -14,7 +14,7 @@ function Home() {
     <>
       <Hero/>
       <Reviews />
-      <About />
+      
       <Specialties />
     </>
   );

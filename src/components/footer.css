@@ -1,0 +1,39 @@
+.footerContent {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 8rem;
+    color: #F4CC21;
+    padding-top: 4rem;
+}
+.footerHours > h1 {
+    padding-bottom: 2rem;
+}
+
+.footerContact > h1 {
+    padding-bottom: 2rem;
+}
+
+.footerHours > h3 {
+    padding-bottom: .75rem;
+}
+
+.footerContact > h3 {
+    padding-bottom: .75rem;
+}
+
+.footerLogo {
+    display: flex;
+    align-items: center;
+  }
+
+.googleMapPreview {
+    align-items: center;
+
+}
+
+.copyRightNotice {
+    text-align: center;
+    margin: 1em auto;
+    width: 100%;
+  }

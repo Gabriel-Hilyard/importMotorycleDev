@@ -3,7 +3,7 @@ import './specialties.css';
 import placeHolder from '/placeHolder.png'
 import garyPortrait from '/GaryPortrait.png'
 import counterHelmet from '/Helmet.png'
-
+import shopSpace from '/shopSpace.png'
 function Specialties() {
   console.log("Hello, Specialties is working!")
   return (
@@ -25,7 +25,7 @@ function Specialties() {
       </div>
       
       <div className='specialtyCards'>
-      <img src={placeHolder}
+      <img src={shopSpace}
          alt="logo"
          style={{height: '16em'}}/>
 
