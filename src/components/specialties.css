@@ -16,5 +16,13 @@
     align-items: center;     
     text-align: center;      
     color: #F4CC21;
+    transition: all .2s ease-in-out; 
   }
 
+  .specialtyCards > img {
+    border-radius: 10px;
+  }
+
+  .specialtyCards:hover {
+    transform: scale(1.2);
+  }

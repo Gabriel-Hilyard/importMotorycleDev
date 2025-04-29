@@ -1,4 +1,5 @@
 import React, { useRef } from 'react';
+import './quoteRequest.css'
 import emailjs from '@emailjs/browser';
 
 function QuoteRequest() {

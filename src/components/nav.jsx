@@ -14,7 +14,6 @@ function Nav() {
         <ul className="navLinks">
           <li><a href="/">Home</a></li>
           <li><a href="/QuoteRequest">Request A Quote</a></li>
-          <li><a href="#Specialties">Specialties</a></li>
         </ul>
     </nav>
   )

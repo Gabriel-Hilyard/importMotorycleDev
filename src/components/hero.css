@@ -1,11 +1,13 @@
 .heroText {
+    border-radius: 10px;
     text-align: center;
     word-wrap: break-word;
     width: 25%;
+    height: 50%;
     color: #F4CC21;
     font-weight: bold;
     background: rgb(107, 107, 107); /* Fallback for older browsers without RGBA-support */
-    background: rgba(75, 47, 47, 0.5);
+    background: rgba(75, 47, 47, 0.8);
 }
 
 .heroParagraph {
@@ -25,6 +27,11 @@ section {
     display: flex;
     flex-direction: column;
     align-items: center;
+
+}
+
+.quoteRequestBtn:hover {
+    transform: scale(1.2);
 }
 
 .quoteRequestBtn {
@@ -38,6 +45,8 @@ section {
     box-shadow: -1px 0px 29px 4px rgba(0,0,0,0.75);
     width: 10rem;
     height: 3rem;
+    transition: all .2s ease-in-out; 
+    cursor: pointer;
 }
 
 @media (max-width: 768px) {

@@ -1,15 +1,22 @@
 a {
     text-decoration: none;
     color: #F4CC21;
+    font-weight: bold;
 }
+
 
 
 li {
     display: inline;
     list-style: none;
     font-size: 1.50em;
+    transition: all .2s ease-in-out; 
+  
 }
 
+li:hover {
+  transform: scale(1.2);
+}
 
 .pageTitle {
     justify-content: center;
@@ -19,13 +26,16 @@ li {
     display: flex;
     gap: 3rem;
     list-style: none;
+ 
   }
+
+
 
 nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 2rem;
+    gap: 5rem;
     background-color: #9A0000;
 }
 
