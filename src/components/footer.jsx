@@ -18,7 +18,7 @@ function Footer() {
         <h3>661-877-6725</h3>
         <h3><a href="mailto:johndoe@fakeemail.com">E-mail</a></h3>
         <h3><a href="https://www.facebook.com/motorbikeauthority/">Facebook</a></h3>
-        <h3><a href="quotePage">Request a Quote</a></h3>
+        <h3><a href="/QuoteRequest">Request a Quote</a></h3>
       </div>
 
       <div className='footerHours'>
