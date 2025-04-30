@@ -19,7 +19,7 @@ section {
     display: flex;
     justify-content: center;
     gap: 20%;
-    background-image: url('/parkedOutside.png');
+    background-image: url('/parkedOutside.jpeg');
     background-size: cover;
 }
 
@@ -55,10 +55,15 @@ section {
         align-items: center;
         gap: 2rem;
         padding: 2em 1em;
+        height: 100%;
     }
 
     .heroText {
         width: 90%;
         margin-top: 2em;
+    }
+
+    .heroLogo {
+        display: none;
     }
   }

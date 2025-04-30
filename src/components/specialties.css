@@ -26,3 +26,11 @@
   .specialtyCards:hover {
     transform: scale(1.2);
   }
+
+
+  @media (max-width: 768px) {
+    .specialtyComponent {
+      display: flex;
+      flex-direction: column;
+    }
+  }

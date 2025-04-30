@@ -4,7 +4,6 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Nav from './components/nav.jsx';
 import Hero from './components/hero.jsx';
 import Reviews from './components/reviews.jsx';
-import About from './components/about.jsx';
 import Specialties from './components/specialties.jsx';
 import Footer from './components/footer.jsx';
 import QuoteRequest from './components/quoteRequest.jsx';

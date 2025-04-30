@@ -46,8 +46,13 @@ function Footer() {
 
         <h3>25345 Avenue Stanford #206, Santa Clarita, CA 91355</h3>
       </div>
+
+
     </div>
       <div className='copyRightNotice'>
+      <div className='mobileAddress'>
+      <h3>25345 Avenue Stanford #206, Santa Clarita, CA 91355</h3>
+    </div>
         <a href='https://www.linkedin.com/in/gabriel-hilyard-87a583173'>Created by Gabriel Hilyard</a>
       &copy; {new Date().getFullYear()} Import Motorcycle Specialist all rights reserved.
       </div>

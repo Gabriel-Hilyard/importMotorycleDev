@@ -19,12 +19,13 @@ function Hero() {
             you ride, reliability matters.</p>
         </div>
         <div className='heroLogoButton'>
-            <img src={Logo}
+            <img className='heroLogo'
+            src={Logo}
             alt="logo"
             style={{height: '16em'}}/>
             <Link to='/QuoteRequest'>
             <button className='quoteRequestBtn'>
-            Reserve a Quote
+            Request a Quote
             </button>
             </Link>
 

@@ -1,11 +1,10 @@
 import React from 'react';
 import './specialties.css';
-import placeHolder from '/placeHolder.png'
-import garyPortrait from '/GaryPortrait.png'
+import garyPortrait from '/GaryPortrait.jpeg'
 import oilChange from '/oilChange.jpg'
 import engineRebuild from '/engineRebuild.jpg'
 import valveAdjustment from '/valveAdjustment.jpg'
-import tireChange from '/mystichrome.png'
+import tireChange from '/mystichrome.jpeg'
 import forkSeals from '/forkSeals.jpg'
 
 function Specialties() {

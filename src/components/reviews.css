@@ -23,3 +23,15 @@
     border-radius: 10px;
     min-width: 500px;
   }
+
+
+  @media (max-width: 768px) {
+    .reviewComponent {
+      flex-direction: column;
+    }
+
+    .reviewCard {
+      min-width: 95%;
+      scrollbar-width: 0%;
+    }
+  }
