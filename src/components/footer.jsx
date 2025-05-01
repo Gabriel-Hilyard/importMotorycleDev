@@ -49,7 +49,7 @@ function Footer() {
 
 
     </div>
-      <div className='copyRightNotice'>
+  <div className='copyRightNotice'>
       <div className='mobileAddress'>
       <h3>25345 Avenue Stanford #206, Santa Clarita, CA 91355</h3>
     </div>

@@ -23,15 +23,30 @@ function QuoteRequest() {
   };
 
   return (
+
+    <div className='quoteForm'>
     <form ref={form} onSubmit={sendEmail}>
       <label>Name</label>
-      <input type="text" name="user_name" />
-      <label>Email</label>
-      <input type="email" name="user_email" />
+      <input 
+      type="text" 
+      name="user_name" 
+      placeholder='Ex: John Doe'/>
+
+      <label>E-mail</label>
+      <input type="email" 
+      name="user_email" 
+      placeholder='Ex: someone@email.com'/>
+     
       <label>Message</label>
-      <textarea name="message" />
-      <input type="submit" value="Send" />
+      <textarea
+      placeholder='Please briefly explain the issue you are having, or damage your motorcycle has here. '
+       name="message" />
+      <input 
+      type="submit" 
+      value="Send" 
+      />
     </form>
+    </div>
   );
 }
 

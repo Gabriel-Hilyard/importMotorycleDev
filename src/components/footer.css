@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 1rem;
+    gap: 8rem;
     color: #F4CC21;
     padding-top: 4rem;
 }
@@ -27,6 +27,10 @@
     align-items: center;
   }
 
+   img {
+    height: '20em';
+  }
+
 .googleMapPreview {
     align-items: center;
 
@@ -43,20 +47,33 @@
     display: none;
 }
 
+.footerContact > h3 {
+    text-decoration: underline;
+}
+
+.copyRightNotice > a {
+    text-decoration: underline;
+}
+
   @media (max-width: 768px) {
 
     .footerContent {
         flex-direction: column;
         text-align: center;
+        gap: 4rem;
     }
 
+    .footerHours {
+        margin-bottom: 2rem;
+    }
 
     .googleMapPreview {
         display: none;
     }
 
     .footerLogo {
-        display: none;
+      justify-content: center;
+      
     }
 
     .mobileAddress {
