@@ -3,7 +3,7 @@
   display: flex;
   justify-content: center;
   padding: 4rem 0 4rem 0;
-  background-image: url('./parkedOutside.jpeg');
+  background-image: url('./public/parkedOutside.jpeg');
   background-size: cover;
 }
 
