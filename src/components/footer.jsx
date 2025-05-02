@@ -1,6 +1,8 @@
 import React from 'react';
 import Logo from '/IMS_Logo.png'
 import './footer.css'
+
+
 function Footer() {
   console.log("Hello, footer is working!")
   return (
