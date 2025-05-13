@@ -21,6 +21,9 @@ function Footer() {
         <h3><a href="mailto:johndoe@fakeemail.com">E-mail</a></h3>
         <h3><a href="https://www.facebook.com/motorbikeauthority/">Facebook</a></h3>
         <h3><a href="/QuoteRequest">Request a Quote</a></h3>
+        <h3><a href="https://www.yelp.com/writeareview/biz/-Ev8cL804gb0tNnAZHSSoA?return_url=%2Fbiz%2F-Ev8cL804gb0tNnAZHSSoA&review_origin=biz-details-war-button"
+        target='_blank'
+        >Leave a Review!</a></h3>
       </div>
 
       <div className='footerHours'>

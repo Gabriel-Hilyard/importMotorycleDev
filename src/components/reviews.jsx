@@ -19,6 +19,12 @@ function Reviews() {
       <span class="yelp-review" data-review-id="0rbf1YDfdE6OXYXlwavvzQ" data-hostname="www.yelp.com">Read <a href="https://www.yelp.com/user_details?userid=I7OozKT5JQA-1pJInKNS2A" rel="nofollow noopener">Ray H.</a>'s <a href="https://www.yelp.com/biz/import-motorcycle-specialist-valencia?hrid=0rbf1YDfdE6OXYXlwavvzQ" rel="nofollow noopener">review</a> of <a href="https://www.yelp.com/biz/-Ev8cL804gb0tNnAZHSSoA" rel="nofollow noopener">Import Motorcycle Specialist</a> on <a href="https://www.yelp.com" rel="nofollow noopener">Yelp</a><script src="https://www.yelp.com/embed/widgets.js" type="text/javascript" async></script></span>
         </div>
         </div>
+
+        <div className='reviewLink'>
+          <h1><a href='https://www.yelp.com/writeareview/biz/-Ev8cL804gb0tNnAZHSSoA?return_url=%2Fbiz%2F-Ev8cL804gb0tNnAZHSSoA&review_origin=biz-details-war-button'
+            target='_blank'
+          >Leave us a Review!</a></h1>
+        </div>
       </div>
   )
 }
